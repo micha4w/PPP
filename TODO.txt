@@ -1,0 +1,38 @@
+TODO-List
+---------
+
+Parkour:
+Particle if restarting
+Change dfishing rod
+
+*Center when restarting and starting*
+*Add Emerald Block checkpoint*
+*Fix reset stick*
+
+MLG:
+Add something to differentiate between haybale, bed, honey block, scaffoling
+
+Fix Bug where ChangeHeight not stored correctly
+Item (Race that doesnt Unlock Mashup)
+Add another item with blocks where you can choose the heihgt/difficulty
+    for example ladder mlg
+Mashup
+Useful skillls
+
+*Scoreboard doesnt get removed*
+*Make so if you lose velocity while high up, you fail*
+
+-Stop player from being sent to spawn  when swapping mlgs-
+-Add Change Height Item-
+-Use airtime instead of velocity-
+-Fix weird thing with boat-
+-Add the ability to bed/haybale mlg (take falldamge)-
+-Delete Player Files-
+-Store HighScores (Race, Total, Failed) in File-
+-Add a way to change Clock and ResetStick-
+
+SOMEDAY:
+--------
+PVP
+Custom-KIT
+Custom-MAP

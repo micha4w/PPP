@@ -1,0 +1,62 @@
+name: PringlePracticePlugin
+version: 1.11.1
+main: com.Practice.PracticePlugin
+author: micha4w
+description: Custom Plugin made for Pringle Practice Server
+api-version: 1.13
+commands:
+  test:
+    description: Don't use this
+    usage: /test <confirmation>
+    permission: op
+  editinv:
+    description: Opens the Inventory for you to edit it
+    usage: /editinv
+    permission: PPP.editinv
+  savegui:
+    description: Saves the InventoryGUI of PPP to config file.
+    usage: /savequi
+    permission: PPP.saveAndLoadGUI
+  loadgui:
+    description: Loads the InventoryGUI of PPP from config file.
+    usage: /loadgui
+    permission: PPP.saveAndLoadGUI
+  getitem:
+    description: Gives you PPP Items
+    usage: /getitem <item> <...>
+    permission: PPP.getitem
+  setitem:
+    description: Let's you change the PPP Items
+    usage: /setitem <item> <...>
+    permission: PPP.setitem
+  undocheckpoint:
+    description: Use this to undo your last checkpoint gotten
+    usage: /undocheckpoint
+    permission: PPP.undocheckpoint
+  updateppp:
+    description: Updates the PPP jar, from github.
+    usage: /updateppp
+    permission: PPP.update
+  ppp:
+    description: Config Stuff
+    permission: op
+
+permissions:
+  PPP.editInv:
+    description: Allows a player to edit the PPP GUI
+    default: op
+  PPP.saveAndLoadGUI:
+    description: Allows a player to save and load the Inventories to file
+    default: op
+  PPP.getitem:
+    description: Allows a player to give himself the clock, racestarter, leavestick
+    default: op
+  PPP.setitem:
+    description: Allows a player to change the clock, racestarter, leavestick
+    default: op
+  PPP.undocheckpoint:
+    description: Allows a player to give himself the leavestick
+    default: true
+  PPP.update:
+    description: Allows someone to get the new Jar from github
+    default: op
